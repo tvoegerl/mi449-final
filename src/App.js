@@ -175,7 +175,7 @@ function Schedule() {
             <h5 className="card-title">Monday</h5>
             {mondaySchedule.map((classObj) => (
               <div>
-                <p className="card-text"><b>{classObj.start_time.substring(0, 5)} - {classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
+                <p className="card-text"><b>{classObj.start_time.substring(0, 5)}-{classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
               </div>
             ))}
           </div>
@@ -187,7 +187,7 @@ function Schedule() {
             <h5 className="card-title">Tuesday</h5>
             {tuesdaySchedule.map((classObj) => (
               <div>
-                <p className="card-text"><b>{classObj.start_time.substring(0, 5)} - {classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
+                <p className="card-text"><b>{classObj.start_time.substring(0, 5)}-{classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
               </div>
             ))}
           </div>
@@ -199,7 +199,7 @@ function Schedule() {
             <h5 className="card-title">Wednesday</h5>
             {wednesdaySchedule.map((classObj) => (
               <div>
-                <p className="card-text"><b>{classObj.start_time.substring(0, 5)} - {classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
+                <p className="card-text"><b>{classObj.start_time.substring(0, 5)}-{classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
               </div>
             ))}
           </div>
@@ -211,7 +211,7 @@ function Schedule() {
             <h5 className="card-title">Thursday</h5>
             {thursdaySchedule.map((classObj) => (
               <div>
-                <p className="card-text"><b>{classObj.start_time.substring(0, 5)} - {classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
+                <p className="card-text"><b>{classObj.start_time.substring(0, 5)}-{classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
               </div>
             ))}
           </div>
@@ -223,7 +223,7 @@ function Schedule() {
             <h5 className="card-title">Friday</h5>
             {fridaySchedule.map((classObj) => (
               <div>
-                <p className="card-text"><b>{classObj.start_time.substring(0, 5)} - {classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
+                <p className="card-text"><b>{classObj.start_time.substring(0, 5)}-{classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
               </div>
             ))}
           </div>
@@ -235,13 +235,13 @@ function Schedule() {
             <h5 className="card-title">Saturday</h5>
             {saturdaySchedule.map((classObj) => (
               <div>
-                <p className="card-text"><b>{classObj.start_time.substring(0, 5)} - {classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
+                <p className="card-text"><b>{classObj.start_time.substring(0, 5)}-{classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
               </div>
             ))}
             <h5 className="card-title" style={{paddingTop: "10px"}}>Sunday</h5>
             {sundaySchedule.map((classObj) => (
               <div>
-                <p className="card-text"><b>{classObj.start_time.substring(0, 5)} - {classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
+                <p className="card-text"><b>{classObj.start_time.substring(0, 5)}-{classObj.end_time.substring(0, 5)}</b> {classObj.title}</p>
               </div>
             ))}
           </div>
